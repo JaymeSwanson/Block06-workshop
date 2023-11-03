@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: left;
+    color: aqua
+}
+
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box {
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    border: purple;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#canned {
+    background-color: #701515;
+}
+
+#Drygoods {
+    background-color: blue;
+}
+
+#pantryitems {
+    color: brown;
+    display: block;
+}
+
+header {
+    display: block;
+    height: 250px;
+}
